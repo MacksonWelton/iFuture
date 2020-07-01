@@ -10,6 +10,8 @@ Esse é um projeto de Front-end Web Mobile First feito utilizando ReactJS, Redux
 
 Os principais arquivos do projeto foram dividos em duas pastas sendo a primeira chama Components que contém os arquivos de componentes, como barra de navegação superior (Appbar), navegação inferior (Bottombar), cards de restaurantes, pratos entre outros, e Containers que são as páginas formadas pela união dos componentes.
 
+Possuí integração com API desenvolvida pela Labenu: [Documentação da API](https://documenter.getpostman.com/view/7549981/SWTEdGtT?version=latest)
+
 ## Sobre
 
 Esse é o principal projeto que realizei do módulo de Front-end do bootcamp da Labenu.
