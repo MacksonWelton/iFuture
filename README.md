@@ -18,6 +18,17 @@ Esse é o principal projeto que realizei do módulo de Front-end do bootcamp da 
 
 Ele consiste em uma aplicação que permite que o usuário ao fazer login ou cadastrar-se, pesquisar, selecionar um restaurante, escolher um ou mais pratos disponíveis e concluir sua compra no carrinho.
 
+**Desenvolvido por:**
+* [Mackson Welton Dias da Silva](https://github.com/MacksonWelton)
+* [Rosana Carolino Rezende](https://github.com/rosanarezende) 
+* [Thales Fernando Milanezi](https://github.com/ThalesMilanezi)
+* [Vinícius Abuhid](https://github.com/ViniciusAbuhid)
+<br>
+
+**Layout por:**
+* [Camila Mizutani](https://www.linkedin.com/in/camila-mizutani-257495bb/)
+<br><br>
+
 ## Instruções para rodar
 Por ser um projeto com ReactJS, há a necessidade do NodeJS. Com ele em sua máquina, basta abrir o terminal e navegar até o repositório clonado e rodar:
 
