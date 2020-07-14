@@ -8,7 +8,7 @@ export function CartMain(props) {
     const { restaurant, filteredList } = props
 
     return (
-        <main>
+        <S.Main>
             {filteredList.length === 0 || Object.keys(restaurant).length === 0
                 ?
                 <S.EmptyCartWrapper>
@@ -20,9 +20,9 @@ export function CartMain(props) {
                 <S.FullCartWrapper>
 
                     <S.DivMain>
-                        <S.Text red="true"> {restaurant.name} </S.Text>
-                        <S.Text> {restaurant.address} </S.Text>
-                        <S.Text> {restaurant.deliveryTime - 10} - {restaurant.deliveryTime} min </S.Text>
+                        <S.Text color="red"> {restaurant.name} </S.Text>
+                        <S.Text color="gray"> {restaurant.address} </S.Text>
+                        <S.Text color="gray"> {restaurant.deliveryTime - 10} - {restaurant.deliveryTime} min </S.Text>
                     </S.DivMain>
 
                     {filteredList
@@ -32,7 +32,7 @@ export function CartMain(props) {
 
                 </S.FullCartWrapper>
             }
-        </main>
+        </S.Main>
     )
 }
 
