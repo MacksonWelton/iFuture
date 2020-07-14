@@ -13,7 +13,7 @@ function RestaurantDishes(props) {
             {data.products
             .filter(item => item.category !== 'Acompanhamento')
             .map(item => (
-                <CardFood item={item} restaurantId={data.id} />
+                <CardFood key={item.id} item={item} restaurantId={data.id} />
             ))}
 
             <S.Title> Acompanhamentos </S.Title>
@@ -21,7 +21,7 @@ function RestaurantDishes(props) {
             {data.products
             .filter(item => item.category === 'Acompanhamento')
             .map(item => (
-                <CardFood item={item} restaurantId={data.id} />
+                <CardFood key={item.id} item={item} restaurantId={data.id} />
             ))}
         </div>
     )
