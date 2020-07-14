@@ -40,7 +40,7 @@ function ProfilePage(props) {
           <S.IconEdit src={require("../../assets/edit.svg")} alt='Voltar' onClick={goToAdressEdit} />
         </S.AdressContainer>
 
-        <S.TextStyled line> Histórico de pedidos </S.TextStyled>
+        <S.TextStyled line="true"> Histórico de pedidos </S.TextStyled>
 
         {orders.length === 0
           ?
