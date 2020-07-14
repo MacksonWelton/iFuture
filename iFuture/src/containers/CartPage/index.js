@@ -46,7 +46,7 @@ function CartPage(props) {
 
       </S.Container>
 
-      <Bottombar pagxe='cart' />
+      <Bottombar page='cart' />
     </S.ContentWrapper>
   )
 }
