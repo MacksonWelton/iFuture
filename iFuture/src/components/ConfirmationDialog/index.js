@@ -30,7 +30,7 @@ export function ConfirmationDialog(props) {
 
     return (
         <Dialog
-            disableBackdropClick disableEscapeKeyDown open={open} onClose={addQuantityAndClose}
+            disableBackdropClick={!open} disableEscapeKeyDown={!open} open={open} onClose={addQuantityAndClose}
             BackdropProps={{
                 style: {
                     backgroundColor: 'black',
