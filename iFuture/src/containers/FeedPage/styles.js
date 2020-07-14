@@ -38,6 +38,7 @@ export const Category = styled(Typography)`
     line-height: normal;
     letter-spacing: -0.39px;
     text-align: center;
+    cursor: pointer;
     color: #000000;
     :hover{
         color: ${props => props.personalizedColor ? "#e8222e" : "#000000"};

@@ -1,5 +1,9 @@
-import { Typography } from '@material-ui/core'
-import styled from 'styled-components'
+import { Typography } from '@material-ui/core';
+import styled from 'styled-components';
+
+export const Main = styled.main`
+    width: 92%;
+`
 
 export const EmptyCartWrapper = styled.div`
     text-align: center;
@@ -14,11 +18,11 @@ export const Text = styled(Typography)`
     height: 16px;
     letter-spacing: -0.4px;
     margin-bottom: 8px;
-    color: ${props => props.red ? "#e8222e" : "#000000"};
+    color: ${props => props.color === "red" ? "#e8222e" : props.color === "gray" ? "#b8b8b8" : "#000000"};
 `
 
 export const FullCartWrapper = styled.div`
-    width: 92%;
+    width: 100%;
     margin-bottom: 16px;
 `
 

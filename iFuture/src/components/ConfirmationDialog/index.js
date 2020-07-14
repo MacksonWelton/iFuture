@@ -30,7 +30,7 @@ export function ConfirmationDialog(props) {
 
     return (
         <Dialog
-            disableBackdropClick disableEscapeKeyDown open={open} onClose={addQuantityAndClose}
+            disableBackdropClick={!open} disableEscapeKeyDown={!open} open={open} onClose={addQuantityAndClose}
             BackdropProps={{
                 style: {
                     backgroundColor: 'black',
@@ -61,7 +61,7 @@ export function ConfirmationDialog(props) {
                       }}
                 >
                     {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(number => (
-                        <MenuItem value={number}>{number}</MenuItem>
+                        <MenuItem key={number} value={number}>{number}</MenuItem>
                     ))}
                 </S.Input>
 
